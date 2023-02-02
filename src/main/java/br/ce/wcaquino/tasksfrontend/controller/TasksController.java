@@ -79,6 +79,5 @@ public class TasksController {
 		RestTemplate restTemplate = new RestTemplate();
 		return restTemplate.getForObject(
 				getBackendURL() + "/tasks-backend/todo", List.class);
-	//Comment
 	}
 }
